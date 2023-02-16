@@ -1,0 +1,29 @@
+.Title{
+    width: 40%;
+    height: 18%;
+    margin-top: 8vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#todo{
+    color: white;
+    font-size: 5vh;
+    font-weight: 600;
+    letter-spacing: 2vh;
+}
+#themeButton{
+    height: 3vh;
+    width: 3vh;
+    background-color: transparent;
+    border: none;
+    padding-top: 0.5vh;
+}
+#themeButton:hover{
+    cursor: pointer;
+}
+#themeImg{
+    height: 100%;
+    width: 80%;
+}

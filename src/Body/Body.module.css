@@ -1,0 +1,62 @@
+.Body{
+    position: relative;
+    height: 65%;
+    width: 100%;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.taskBox{
+    position: absolute;
+    height: 80%;
+    width: 40%;
+    background-color: white;
+    box-shadow: 0px 50px 35px 5px rgb(212, 211, 211);
+    border-radius: 5px;
+    transform: translateY(-120px);
+}
+.taskBar{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #D6D7E4;
+}
+.tickDiv{
+    width: 15%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.tickButton{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border: 1px solid #D6D7E4;
+    background-color: transparent;
+    /* background: linear-gradient(135deg, #55DDFF 0%, #C058F3 100%); */
+
+}
+.mainTaskDiv{
+    width: 75%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 23px;
+    color: #494C6B;
+}
+.DeleteButton{
+    width: 10%;
+    height: 80%;
+    border-radius: 50%;
+    border: none;
+    margin-right: 20px;
+    background-color: transparent;
+}

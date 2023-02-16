@@ -1,0 +1,51 @@
+.Input{
+    height: 24%;
+    width: 40%;
+    background-color: white;
+    margin-top: 5vh;
+    border-radius: 0.5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5vh;
+    overflow: hidden;
+}
+#dummyButtonDiv{
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+#dummyButton{
+    width: 4vh;
+    height: 4vh;
+    background-color: transparent;
+    border: 0.1vh solid #E3E4F1;
+    border-radius: 50%;
+}
+#dummyButton:hover{
+    cursor: pointer;
+}
+.InputBox{
+    width: 88%;
+    height: 100%;
+    border: 0px;
+    font-size: 2.5vh;
+    font-weight: 500;
+    color: #393A4B;
+    background-color: transparent;
+}
+.InputBox:focus-visible{
+    outline: none;
+}
+#formTag{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
